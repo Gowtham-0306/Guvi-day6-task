@@ -67,7 +67,7 @@ var pi =3.14;
 
 
 
-
+// creating instances for the circle class and giving values as 6.2,black//
 var obj1 = new circle(6.2, "black");
 console.log(obj1.getRadius());
 
