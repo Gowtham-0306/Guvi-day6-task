@@ -1,4 +1,6 @@
 class circle {
+    //constructor to inialize circle with radius , color ( 1,yellow - values are added incase to handle the scenario where no colour is 
+    // provided//
 constructor (radius=1 , color="yellow") {
 this.radius = radius;
 this.color= color;
