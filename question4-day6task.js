@@ -29,11 +29,12 @@ return `The taxi bill is ${this.basePrice + (distanceTravelled* this.costPerKms)
 var taxi= new uberPrice(5,10);
 
 // entering the kmsTravelled here
-var taxiBill = taxi.fareCalculator(2);
+var kms = 2;
+var taxiBill = taxi.fareCalculator(kms);
 //printing the taxi bill
 console.log(taxiBill);
 
 
 
-// o/p
+// o/p:
 // The taxi bill is 25 RS
